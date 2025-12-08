@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <!--+
+    <div>
+        <h1>Header</h1>
+    </div>
+    <div>
+        <h1>Main</h1>
+        <div>
+            <h1>Section</h1>
+        </div>
+    </div>
+    The above method shows the wrong method of coding html
+    The correct method is shown below-->
+    <header class="header">
+        <div style="display: flex;align-items: center;">
+            <div class="logo"> L</div>
+            <h1>Company Name</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>Unordered list</li>
+                <li>Content 2</li>
+                <li>Content 3</li>
+                <li>Content 4</li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <div style="display: flex;gap:1rem;">
+            <section>
+                
+                <form>
+                    <h2>Enter Details:</h2>
+                    <label>Name:</label>
+                    <input type="text" name="name" required>
+                    <label>Email:</label>
+                    <input type="email" placeholder="abcd@gamil.com"="email" name="email" >
+                    <label>Password:</label>
+                    <input type="password" placeholder="**********" id ="password" name="password" required>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </section>
+            <aside>
+                <div style="display:flex;gap:5rem;">
+                    <div >
+                        <h2>Ordered List</h2>
+                        <ol>
+                            <li>Content 1</li>
+                            <li>Content 2</li>
+                            <li>Content 3</li>
+                            <li>Content 4</li>
+                        </ol>
+                    </div>
+                    <div>
+                        <h2>Description List</h2>
+                        <div style="font-size: 1.5rem;">
+                            <p><span style="font-weight: bold;">Name: </span>Pranaya Shrestha</p>
+                            <p><span style="font-weight: bold;">Post: </span>Student</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <table>
+                        <h1>Table</h1>
+                        <thead>
+                            <tr>
+                                <th>Header 1</th>
+                                <th>Header 2</th>
+                            </tr>
+                        </theader>
+                        <tbody>
+                            <tr>
+                                <td>Row 1, cell 1</td>  <!--Table data-->
+                                <td>Row 1, cell 2</td>
+                            </tr>
+
+                            <tr>
+                                <td>Row 2, cell 1</td>
+                                <td>Row 2, cell 2</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>Footer 1</td>
+                                <td>Footer 2</td>
+                            </tr>
+                        </tfoot>
+                
+                    </table>  
+                </div>
+            </aside>
+        </div>
+        <section class="box_model">
+            <h1 >CSS box model</h1>
+            
+            <div class="box">
+                Text
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
